@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oeE7ka7d9s2Z/Y+mZtjku26pEXylYHoCi390bTgI2gpcXKJgX1dHB5oOmhvToIBbU3C/K+8G0ynzS+YwVCahlQ==",
+  "dgSpecHash": "Gdv/FT9ciDDN3qDgXjki5gBGWnNsDX4QvjJfVjkw3ZQoxyuKWsGWZok308xoZCW8EqjVSFtQAW3sEQcSAP2iYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
