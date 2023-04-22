@@ -1,0 +1,31 @@
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu_Quan_Co._Ltd.Form1.resources
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu_Quan_Co._Ltd.Form2.resources
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\Trieu Quan Co.,Ltd.exe
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\Trieu Quan Co.,Ltd.deps.json
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\Trieu Quan Co.,Ltd.runtimeconfig.json
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\Trieu Quan Co.,Ltd.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\Trieu Quan Co.,Ltd.pdb
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\BUS.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\DAL.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\DTO.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\BUS.pdb
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\DAL.pdb
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\DTO.pdb
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.csproj.CopyComplete
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\refint\Trieu Quan Co.,Ltd.dll
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.pdb
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\ref\Trieu Quan Co.,Ltd.dll
