@@ -90,6 +90,7 @@
             // 
             // username
             // 
+            username.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             username.Location = new Point(251, 216);
             username.Multiline = true;
             username.Name = "username";
@@ -98,11 +99,14 @@
             // 
             // password
             // 
+            password.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             password.Location = new Point(251, 290);
             password.Multiline = true;
             password.Name = "password";
+            password.PasswordChar = '*';
             password.Size = new Size(318, 40);
             password.TabIndex = 6;
+            password.KeyPress += password_KeyPress;
             // 
             // Form1
             // 

@@ -28,5 +28,21 @@ namespace Trieu_Quan_Co._Ltd
             }
             else MessageBox.Show("Error password or username!!!!!");
         }
+
+        private void password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                b = new Accountants_BUS("", "", username.Text, password.Text);
+                DataTable dt = b.selectQuery();
+                if (dt.Rows.Count > 0)
+                {
+                    this.Hide();
+                    Form2 newform = new Form2();
+                    newform.Show();
+                }
+                else MessageBox.Show("Error password or username!!!!!");
+            }
+        }
     }
 }
