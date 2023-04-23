@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj": {}
+    "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj": {
+    "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj",
+        "projectUniqueName": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\obj\\",
+        "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj",
+        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj"
+              "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj"
               }
             }
           }
@@ -69,25 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj": {
+    "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj"
+              "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj"
               }
             }
           }
@@ -138,25 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj": {
+    "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -203,25 +191,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj": {
+    "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
+        "projectUniqueName": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
         "projectName": "Trieu Quan Co.,Ltd",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\obj\\",
+        "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
+        "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,8 +219,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Desktop\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj"
+              "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj": {
+                "projectPath": "C:\\Users\\Minh Quan\\Source\\Repos\\Final_SE\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj"
               }
             }
           }
@@ -275,7 +259,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
