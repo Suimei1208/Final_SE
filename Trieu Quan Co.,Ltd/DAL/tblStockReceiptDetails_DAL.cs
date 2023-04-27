@@ -18,7 +18,12 @@ namespace DAL
 
         public DataTable selectQuery()
         {
-            string s = "select * from tblStockReceiptDetails";
+            string s = "select * from tblStockReceiptDetails where StockReceiptCode = '" + p._StockReceiptCode + "'";
+            return Connection.selectQuery(s);
+        }
+        public DataTable getProjectDesc()
+        {
+            string s = "select top 1 ID from tblStockReceiptDetails order by ID desc";
             return Connection.selectQuery(s);
         }
     }

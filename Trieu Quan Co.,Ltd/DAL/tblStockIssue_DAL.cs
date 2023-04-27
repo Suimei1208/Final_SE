@@ -11,9 +11,9 @@ namespace DAL
     public class tblStockIssue_DAL
     {
         tblStockIssue_DTO p;
-        public tblStockIssue_DAL(string ID, string DateOfIssue, string DistributorCode, int TotalValue)
+        public tblStockIssue_DAL(string ID, string DateOfIssue, string DistributorCode, int TotalValue, string Status)
         {
-            p = new tblStockIssue_DTO(ID,   DateOfIssue, DistributorCode, TotalValue);
+            p = new tblStockIssue_DTO(ID,   DateOfIssue, DistributorCode, TotalValue, Status);
         }
 
         public DataTable selectQuery()

@@ -9,7 +9,7 @@ namespace DTO
     public class tblStockReceipt_DTO
     {
         private string ID, DateOfReceipt, SupplierCode;
-        private int TotalValue;
+        private int TotalValue, accountant_id;
         public string _ID
         {
             get { return ID; }
@@ -34,12 +34,19 @@ namespace DTO
             set { TotalValue = value; }
         }
 
-        public tblStockReceipt_DTO(string ID, string DateOfReceipt, string SupplierCode, int TotalValue)
+        public int _accountant_id
+        {
+            get { return accountant_id; }
+            set { accountant_id = value; }
+        }
+
+        public tblStockReceipt_DTO(string ID, string DateOfReceipt, int accountant_id, string SupplierCode, int TotalValue)
         {
             this.ID = ID;
             this.DateOfReceipt = DateOfReceipt;
             this.SupplierCode = SupplierCode;
             this.TotalValue = TotalValue;
+            this.accountant_id = accountant_id;
         }
     }
 }

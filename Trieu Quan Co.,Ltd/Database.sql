@@ -9,6 +9,8 @@ CREATE TABLE Accountants(
 create table tblStockReceipt(
 	ID varchar(50) PRIMARY KEY,
 	DateOfReceipt date,
+	accountant_id int,
+	FOREIGN KEY (accountant_id) REFERENCES Accountants(accountant_id),
 	SupplierCode varchar(50),
 	TotalValue int,
 );
@@ -28,7 +30,8 @@ create table tblStockIssue(
 	ID varchar(50) PRIMARY KEY,
 	DateOfIssue date,
 	DistributorCode varchar(50),
-	TotalValue int
+	TotalValue int,
+	Status varchar(50)
 );
 
 create table tblStockIssueDetails(
@@ -55,6 +58,9 @@ create table Suppliers(
 	Email  varchar(30)
 );
 
+
+select * from tblStockReceipt
+delete from tblStockReceipt
 INSERT INTO Accountants
 VALUES (1, 'Admin', 'admin', '123456789'),
        (2, 'Trieu', 'suimei', '123456789'),
@@ -71,3 +77,10 @@ INSERT INTO Products (ProductID, ProductName, Quantity, UnitPrice) VALUES
 ('SP008', 'Vivo X70 Pro+', 7, 12000000),
 ('SP009', 'Realme GT Master Edition', 9, 10000000),
 ('SP010', 'Nokia X20', 6, 9000000);
+
+Insert into Suppliers(SupplierID, SupplierName, PhoneNumber, Email) values
+('S0001', 'ABC Company', '0123456789', 'abc@gmail.com'),
+('S0002', 'XYZ Corporation', '0987654321', 'xyz@yahoo.com'),
+('S0003', 'MNO Corporation', '0909090909', 'mno@outlook.com'),
+('S0004', 'PQR Limited', '0777777777', 'pqr@hotmail.com'),
+('S0005', 'LMN Limited', '0888888888', 'lmn@gmail.com')

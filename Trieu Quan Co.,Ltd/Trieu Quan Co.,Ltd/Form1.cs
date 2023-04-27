@@ -1,10 +1,12 @@
 using BUS;
 using System.Data;
+using System.Security.Cryptography;
 
 namespace Trieu_Quan_Co._Ltd
 {
     public partial class Form1 : Form
     {
+        public static string uname;
         Accountants_BUS b;
         public Form1()
         {
@@ -22,6 +24,7 @@ namespace Trieu_Quan_Co._Ltd
             DataTable dt = b.selectQuery();
             if (dt.Rows.Count > 0)
             {
+                uname = b.getID_EM();
                 this.Hide();
                 Form2 newform = new Form2();
                 newform.Show();
@@ -37,6 +40,7 @@ namespace Trieu_Quan_Co._Ltd
                 DataTable dt = b.selectQuery();
                 if (dt.Rows.Count > 0)
                 {
+                    uname = b.getID_EM();
                     this.Hide();
                     Form2 newform = new Form2();
                     newform.Show();
@@ -44,5 +48,6 @@ namespace Trieu_Quan_Co._Ltd
                 else MessageBox.Show("Error password or username!!!!!");
             }
         }
+
     }
 }

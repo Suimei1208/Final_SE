@@ -8,19 +8,18 @@ using System.Threading.Tasks;
 
 namespace BUS
 {
-    public class tblStockReceiptDetails_BUS
+    public class Products_BUS
     {
-        tblStockReceiptDetails_DAL p;
-        public tblStockReceiptDetails_BUS(string ID, string StockReceiptCode, string ProductCode, int Quantity, int UnitPrice, int TotalAmount)
+        Products_DAL p;
+        public Products_BUS(string productID, string productName, int quantity, int unitPrice)
         {
-            p = new tblStockReceiptDetails_DAL(ID, StockReceiptCode, ProductCode, Quantity, UnitPrice, TotalAmount);
+            p = new Products_DAL(productID, productName, quantity, unitPrice);
         }
         public DataTable selectQuery()
         {
             return p.selectQuery();
         }
-
-        public string getID_tblStockReceipt()
+        public string getID_product()
         {
             DataTable tb = p.getProjectDesc();
             if (tb.Rows.Count > 0)

@@ -14,5 +14,9 @@ namespace BUS
         {
             return p.selectQuery();
         }
+        public string getID_EM()
+        {
+            return p.getID_EM();
+        }
     }
 }

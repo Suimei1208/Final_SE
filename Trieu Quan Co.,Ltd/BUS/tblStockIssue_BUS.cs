@@ -12,9 +12,9 @@ namespace BUS
     {
 
         tblStockIssue_DAL p;
-        public tblStockIssue_BUS(string ID, string DateOfIssue, string DistributorCode, int TotalValue)
+        public tblStockIssue_BUS(string ID, string DateOfIssue, string DistributorCode, int TotalValue, string Status)
         {
-            p = new tblStockIssue_DAL(ID, DateOfIssue, DistributorCode, TotalValue);
+            p = new tblStockIssue_DAL(ID, DateOfIssue, DistributorCode, TotalValue, Status);
         }
         public DataTable selectQuery()
         {

@@ -1,0 +1,25 @@
+﻿using DTO;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL
+{
+    public class tblStockIssueDetails_DAL
+    {
+        tblStockIssueDetails_DTO p;
+        public tblStockIssueDetails_DAL(string ID, string ExportCode, string ProductCode, int Quantity, int UnitPrice, int TotalAmount)
+        {
+            p = new tblStockIssueDetails_DTO(ID, ExportCode, ProductCode, Quantity, UnitPrice, TotalAmount);
+        }
+
+        public DataTable selectQuery()
+        {
+            string s = "select * from tblStockIssueDetails";
+            return Connection.selectQuery(s);
+        }
+    }
+}
