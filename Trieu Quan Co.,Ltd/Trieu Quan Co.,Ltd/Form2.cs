@@ -27,6 +27,8 @@ namespace Trieu_Quan_Co._Ltd
         tblStockReceiptDetails_BUS reDetails;
         Suppliers_BUS sup;
         Products_BUS products;
+        tblStockInOutSummary_BUS SOS;
+        string id_tblStockInOutSummary;
         public Form2()
         {
             InitializeComponent();
@@ -189,6 +191,11 @@ namespace Trieu_Quan_Co._Ltd
                     reDetails = new tblStockReceiptDetails_BUS("", id_warehouse.Text, "", 0, 0, 0);
                     grd2.DataSource = reDetails.selectQuery();
 
+                    SOS = new tblStockInOutSummary_BUS("", "", 0, 0);
+                    string ID_tblStockInOutSummary = "TK" + SOS.getID_tblStockInOutSummary();
+
+                    SOS = new tblStockInOutSummary_BUS(ID_tblStockInOutSummary, code_product.Text, 0, int.Parse(Quantity.Text));
+                    SOS.addQuery();
                 }
                 else if (new_pro.Checked)
                 {
@@ -200,6 +207,12 @@ namespace Trieu_Quan_Co._Ltd
 
                     reDetails = new tblStockReceiptDetails_BUS("", id_warehouse.Text, "", 0, 0, 0);
                     grd2.DataSource = reDetails.selectQuery();
+
+                    SOS = new tblStockInOutSummary_BUS("", "", 0, 0);
+                    string ID_tblStockInOutSummary = "TK" + SOS.getID_tblStockInOutSummary();
+
+                    SOS = new tblStockInOutSummary_BUS(ID_tblStockInOutSummary, code_product.Text, 0, int.Parse(Quantity.Text));
+                    SOS.addQuery();
                 }
                 re = new tblStockReceipt_BUS(id_warehouse.Text, "", 0, "", 0);
                 re.updateTotal();
@@ -232,6 +245,11 @@ namespace Trieu_Quan_Co._Ltd
 
             products = new Products_BUS(code_product.Text, "", 0, 0);
             (product_name.Text, _) = products.get_Old_Product();
+
+            SOS = new tblStockInOutSummary_BUS("", code_product.Text, 0, int.Parse(Quantity.Text));
+            id_tblStockInOutSummary = SOS.getID();
+
+            //MessageBox.Show(id_tblStockInOutSummary);
         }
 
         private void edit_Click(object sender, EventArgs e)
@@ -244,6 +262,10 @@ namespace Trieu_Quan_Co._Ltd
             re.updateTotal();
             grd1.DataSource = re.selectQuery();
 
+
+            SOS = new tblStockInOutSummary_BUS(id_tblStockInOutSummary, code_product.Text, 0, int.Parse(Quantity.Text));
+            SOS.updateQuery();
+
             add_pro.Enabled = true;
             save.Enabled = true;
         }
@@ -252,6 +274,8 @@ namespace Trieu_Quan_Co._Ltd
         {
             add_pro.Enabled = true;
             enable(grb2, false);
+            enable(grb1, true);
+            supplier.Enabled = true;
         }
 
         private void del_detail_Click(object sender, EventArgs e)
@@ -356,7 +380,6 @@ namespace Trieu_Quan_Co._Ltd
             {
                 MessageBox.Show("No records to export!!!", "Info");
             }
-
         }
     }
 }

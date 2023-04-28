@@ -35,7 +35,7 @@ namespace BUS
             if (tb.Rows.Count > 0)
             {
                 string res = tb.Rows[0][0].ToString();
-                decimal stt = decimal.Parse(res.Substring(res.Length - 3)) + 1;
+                int stt = int.Parse(res.Substring(res.Length - 3)) + 1;
                 if (stt < 10)
                     res = "000" + stt.ToString();
                 else if (stt < 100)

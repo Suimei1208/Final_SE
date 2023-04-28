@@ -73,6 +73,14 @@ create table Suppliers(
 	Email  varchar(30)
 );
 
+CREATE TABLE tblStockInOutSummary(
+	ID varchar(30) PRIMARY KEY,
+	ItemCode varchar(30),
+	QuantityOut int,
+	QuantityIn int
+	FOREIGN KEY (ItemCode) REFERENCES Products(ProductID)
+)
+
 CREATE TRIGGER update_product_details
 ON tblStockReceiptDetails
 AFTER INSERT, UPDATE
@@ -118,14 +126,26 @@ BEGIN
     INNER JOIN deleted ON Products.ProductID = deleted.ProductCode
 END
 
+CREATE TRIGGER trg_DeleteStockInOutSummary
+ON tblStockReceiptDetails
+AFTER DELETE
+AS
+BEGIN
+    DELETE s
+    FROM tblStockInOutSummary s
+    JOIN deleted d ON s.ItemCode = d.ProductCode
+    WHERE s.QuantityIn = d.Quantity;
+END
+
+
+
 
 select * from Products
-select * from tblStockReceipt
-delete from StockIssue
-delete from StockIssueDetails
-
+select * from StockIssue
+delete from tblStockInOutSummary
+delete from tblStockReceiptDetails
+select * from tblStockInOutSummary
 SELECT TOP 1 ProductID FROM Products ORDER BY ProductID DESC
-
 
 
 INSERT INTO Accountants

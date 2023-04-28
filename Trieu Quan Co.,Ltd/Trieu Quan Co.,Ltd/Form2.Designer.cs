@@ -75,6 +75,7 @@
             id_warehouse = new TextBox();
             label1 = new Label();
             tabPage2 = new TabPage();
+            tabPage3 = new TabPage();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             grd6.SuspendLayout();
@@ -92,10 +93,11 @@
             // 
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
             tabControl1.Location = new Point(12, 12);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1372, 620);
+            tabControl1.Size = new Size(1372, 644);
             tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -109,7 +111,7 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1364, 592);
+            tabPage1.Size = new Size(1364, 616);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Warehouse";
             tabPage1.UseVisualStyleBackColor = true;
@@ -123,7 +125,7 @@
             grd6.Controls.Add(add_pro);
             grd6.Controls.Add(edit);
             grd6.Controls.Add(save);
-            grd6.Location = new Point(676, 223);
+            grd6.Location = new Point(675, 241);
             grd6.Name = "grd6";
             grd6.Size = new Size(682, 53);
             grd6.TabIndex = 7;
@@ -203,7 +205,7 @@
             // grb5
             // 
             grb5.Controls.Add(grd2);
-            grb5.Location = new Point(661, 282);
+            grb5.Location = new Point(660, 313);
             grb5.Name = "grb5";
             grb5.Size = new Size(669, 297);
             grb5.TabIndex = 4;
@@ -229,7 +231,7 @@
             // grb4
             // 
             grb4.Controls.Add(grd1);
-            grb4.Location = new Point(7, 282);
+            grb4.Location = new Point(6, 313);
             grb4.Name = "grb4";
             grb4.Size = new Size(648, 297);
             grb4.TabIndex = 3;
@@ -430,7 +432,7 @@
             // 
             grb3.Controls.Add(del);
             grb3.Controls.Add(add_ware);
-            grb3.Location = new Point(7, 223);
+            grb3.Location = new Point(6, 241);
             grb3.Name = "grb3";
             grb3.Size = new Size(648, 53);
             grb3.TabIndex = 1;
@@ -562,10 +564,20 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1364, 592);
+            tabPage2.Size = new Size(1364, 616);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Stock Issue";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(1364, 616);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Statistics and ratings";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
@@ -602,7 +614,6 @@
         private Label label1;
         private TextBox textBox4;
         private Label label5;
-        private TextBox textBox3;
         private Label label4;
         private TextBox id_em;
         private Label label3;
@@ -644,5 +655,15 @@
         private GroupBox grd6;
         private Button del_all;
         private Button del_detail;
+        private TabPage tabPage3;
+        private DataGridView dataGridView2;
+        private DataGridView dataGridView1;
+        private GroupBox groupBox2;
+        private GroupBox groupBox1;
+        private Label label18;
+        private TextBox textBox8;
+        private TextBox textBox14;
+        private TextBox textBox10;
+        private TextBox textBox11;
     }
 }
