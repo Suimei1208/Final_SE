@@ -564,7 +564,7 @@
             tabPage2.Padding = new Padding(3);
             tabPage2.Size = new Size(1364, 592);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "tabPage2";
+            tabPage2.Text = "Stock Issue";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // Form2

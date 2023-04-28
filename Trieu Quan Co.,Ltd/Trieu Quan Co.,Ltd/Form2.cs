@@ -18,8 +18,6 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using iTextSharp.text.pdf;
 using iTextSharp.text;
 
-
-
 namespace Trieu_Quan_Co._Ltd
 {
     public partial class Form2 : Form
