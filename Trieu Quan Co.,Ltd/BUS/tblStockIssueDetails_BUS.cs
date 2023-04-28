@@ -11,7 +11,7 @@ namespace BUS
     public class tblStockIssueDetails_BUS
     {
         tblStockIssueDetails_DAL p;
-        public tblStockIssueDetails_BUS(string ID, string ExportCode, string ProductCode, int Quantity, int UnitPrice, int TotalAmount)
+        public tblStockIssueDetails_BUS(string ID, string ExportCode, string ProductCode, decimal Quantity, decimal UnitPrice, decimal TotalAmount)
         {
             p = new tblStockIssueDetails_DAL(ID, ExportCode, ProductCode, Quantity, UnitPrice, TotalAmount);
         }

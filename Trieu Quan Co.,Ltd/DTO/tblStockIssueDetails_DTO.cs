@@ -9,7 +9,7 @@ namespace DTO
     public class tblStockIssueDetails_DTO
     {
         private string ID, ExportCode, ProductCode;
-        private int Quantity, UnitPrice, TotalAmount;
+        private decimal Quantity, UnitPrice, TotalAmount;
         public string _ID
         {
             get { return ID; }
@@ -28,25 +28,25 @@ namespace DTO
             set { ProductCode = value; }
         }
 
-        public int _Quantity
+        public decimal _Quantity
         {
             get { return Quantity; }
             set { Quantity = value; }
         }
 
-        public int _UnitPrice
+        public decimal _UnitPrice
         {
             get { return UnitPrice; }
             set { UnitPrice = value; }
         }
 
-        public int _TotalAmount
+        public decimal _TotalAmount
         {
             get { return TotalAmount; }
             set { TotalAmount = value; }
         }
 
-        public tblStockIssueDetails_DTO(string ID, string ExportCode, string ProductCode, int Quantity, int UnitPrice, int TotalAmount)
+        public tblStockIssueDetails_DTO(string ID, string ExportCode, string ProductCode, decimal Quantity, decimal UnitPrice, decimal TotalAmount)
         {
             this.ID = ID;
             this.ExportCode = ExportCode;

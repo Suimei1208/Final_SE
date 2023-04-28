@@ -9,7 +9,7 @@ namespace DTO
     public class Products_DTO
     {
         private string ProductID, ProductName;
-        private int Quantity, UnitPrice;
+        private decimal Quantity, UnitPrice;
 
         public string _ProductID
         {
@@ -22,12 +22,12 @@ namespace DTO
             get { return ProductName; }
             set { ProductName = value; }
         }
-        public int _Quantity
+        public decimal _Quantity
         {
             get { return Quantity; }
             set { Quantity = value; }
         }
-        public int _UnitPrice
+        public decimal _UnitPrice
         {
             get { return UnitPrice; }
             set
@@ -35,7 +35,7 @@ namespace DTO
                 UnitPrice = value;
             }
         }
-        public Products_DTO(string productID, string productName, int quantity, int unitPrice)
+        public Products_DTO(string productID, string productName, decimal quantity, decimal unitPrice)
         {
             this.ProductID = productID;
             this.ProductName = productName;

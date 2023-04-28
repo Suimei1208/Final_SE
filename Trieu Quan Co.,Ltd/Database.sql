@@ -1,4 +1,4 @@
-CREATE DATABASE Final_SE
+﻿CREATE DATABASE Final_SE
 
 CREATE TABLE Accountants(
     accountant_id INT PRIMARY KEY,
@@ -12,7 +12,7 @@ create table tblStockReceipt(
 	accountant_id int,
 	FOREIGN KEY (accountant_id) REFERENCES Accountants(accountant_id),
 	SupplierCode varchar(50),
-	TotalValue int,
+	TotalValue decimal,
 );
 
 
@@ -20,9 +20,9 @@ create table tblStockReceiptDetails(
 	ID varchar(50) PRIMARY KEY,
 	StockReceiptCode varchar(50),
 	ProductCode varchar(50),
-	Quantity int,
-	UnitPrice int,
-	TotalAmount int,
+	Quantity decimal,
+	UnitPrice decimal,
+	TotalAmount decimal,
 	FOREIGN KEY (StockReceiptCode) REFERENCES tblStockReceipt(ID)
 	);
 
@@ -30,7 +30,7 @@ create table tblStockIssue(
 	ID varchar(50) PRIMARY KEY,
 	DateOfIssue date,
 	DistributorCode varchar(50),
-	TotalValue int,
+	TotalValue decimal,
 	Status varchar(50)
 );
 
@@ -38,17 +38,17 @@ create table tblStockIssueDetails(
 	ID varchar(50) PRIMARY KEY,
 	ExportCode varchar(50),
 	ProductCode varchar(50),
-	Quantity int,
-	UnitPrice int,
-	TotalAmount int,
+	Quantity decimal,
+	UnitPrice decimal,
+	TotalAmount decimal,
 	FOREIGN KEY (ExportCode) REFERENCES tblStockIssue(ID)
 );
 
 create table Products(
 	ProductID  varchar(30) PRIMARY KEY,
 	ProductName varchar(30),
-	Quantity int,
-	UnitPrice int
+	Quantity decimal,
+	UnitPrice decimal
 );
 
 create table Suppliers(
@@ -58,9 +58,62 @@ create table Suppliers(
 	Email  varchar(30)
 );
 
+CREATE TRIGGER update_product_details
+ON tblStockReceiptDetails
+AFTER INSERT, UPDATE
+AS
+BEGIN
+-- Kiểm tra nếu trigger được kích hoạt bởi INSERT
+IF EXISTS(SELECT * FROM inserted)
+BEGIN
+UPDATE Products
+SET Quantity = Products.Quantity + (SELECT SUM(Quantity) FROM inserted WHERE ProductCode = Products.ProductID),
+UnitPrice = (SELECT UnitPrice FROM inserted WHERE ProductCode = Products.ProductID)
+WHERE ProductID IN (SELECT ProductCode FROM inserted);
+END
+-- Kiểm tra nếu trigger được kích hoạt bởi UPDATE
+ELSE IF EXISTS(SELECT * FROM deleted)
+BEGIN
+UPDATE p
+SET Quantity = CASE
+WHEN p.Quantity <= i.Quantity
+THEN p.Quantity + (i.Quantity - d.Quantity)
+ELSE
+p.Quantity - (d.Quantity - i.Quantity)
+END,
+UnitPrice = i.UnitPrice
+FROM Products p
+INNER JOIN deleted d ON p.ProductID = d.ProductCode
+INNER JOIN inserted i ON i.ID = d.ID
+WHERE p.ProductID IN (SELECT ProductCode FROM inserted UNION SELECT ProductCode FROM deleted);
+END
 
+END;
+
+GO
+
+
+
+
+CREATE TRIGGER trg_UpdateProductQuantity
+ON tblStockReceiptDetails
+AFTER DELETE
+AS
+BEGIN
+    UPDATE Products
+    SET Products.Quantity = Products.Quantity - deleted.Quantity
+    FROM Products
+    INNER JOIN deleted ON Products.ProductID = deleted.ProductCode
+END
+
+
+select * from Products
 select * from tblStockReceipt
 delete from tblStockReceipt
+delete from tblStockReceiptDetails
+
+SELECT TOP 1 ProductID FROM Products ORDER BY ProductID DESC
+
 INSERT INTO Accountants
 VALUES (1, 'Admin', 'admin', '123456789'),
        (2, 'Trieu', 'suimei', '123456789'),

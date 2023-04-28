@@ -11,7 +11,7 @@ namespace BUS
     public class tblStockReceiptDetails_BUS
     {
         tblStockReceiptDetails_DAL p;
-        public tblStockReceiptDetails_BUS(string ID, string StockReceiptCode, string ProductCode, int Quantity, int UnitPrice, int TotalAmount)
+        public tblStockReceiptDetails_BUS(string ID, string StockReceiptCode, string ProductCode, decimal Quantity, decimal UnitPrice, decimal TotalAmount)
         {
             p = new tblStockReceiptDetails_DAL(ID, StockReceiptCode, ProductCode, Quantity, UnitPrice, TotalAmount);
         }
@@ -19,14 +19,23 @@ namespace BUS
         {
             return p.selectQuery();
         }
-
+        public void addQuery()
+        {
+            p.addQuery();
+        }
+        public void updateQuery()
+        {
+            p.updateQuery();
+        }
+        public void deleteQuery() { p.deleteQuery(); }
+        public void deleteAll() { p.deleteQuery_all(); }
         public string getID_tblStockReceipt()
         {
             DataTable tb = p.getProjectDesc();
             if (tb.Rows.Count > 0)
             {
                 string res = tb.Rows[0][0].ToString();
-                int stt = int.Parse(res.Substring(res.Length - 3)) + 1;
+                decimal stt = decimal.Parse(res.Substring(res.Length - 3)) + 1;
                 if (stt < 10)
                     res = "000" + stt.ToString();
                 else if (stt < 100)

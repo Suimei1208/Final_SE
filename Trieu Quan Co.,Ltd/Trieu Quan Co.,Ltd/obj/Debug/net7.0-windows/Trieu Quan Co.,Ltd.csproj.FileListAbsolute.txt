@@ -91,3 +91,5 @@ C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\De
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.pdb
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\Trieu Quan Co.,Ltd.genruntimeconfig.cache
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\obj\Debug\net7.0-windows\ref\Trieu Quan Co.,Ltd.dll
+C:\Users\Acer\Desktop\Final_SE\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Acer\Desktop\Final_SE\Trieu Quan Co.,Ltd\Trieu Quan Co.,Ltd\bin\Debug\net7.0-windows\itextsharp.dll

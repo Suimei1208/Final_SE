@@ -11,7 +11,7 @@ namespace BUS
     public class Products_BUS
     {
         Products_DAL p;
-        public Products_BUS(string productID, string productName, int quantity, int unitPrice)
+        public Products_BUS(string productID, string productName, decimal quantity, decimal unitPrice)
         {
             p = new Products_DAL(productID, productName, quantity, unitPrice);
         }
@@ -19,13 +19,17 @@ namespace BUS
         {
             return p.selectQuery();
         }
+        public void addQuery()
+        {
+            p.addQuery();
+        }
         public string getID_product()
         {
             DataTable tb = p.getProjectDesc();
             if (tb.Rows.Count > 0)
             {
                 string res = tb.Rows[0][0].ToString();
-                int stt = int.Parse(res.Substring(res.Length - 3)) + 1;
+                decimal stt = decimal.Parse(res.Substring(res.Length - 3)) + 1;
                 if (stt < 10)
                     res = "000" + stt.ToString();
                 else if (stt < 100)
@@ -38,6 +42,14 @@ namespace BUS
             {
                 return "0001";
             }
+        }
+        public (string, string) get_Old_Product()
+        {
+            return p.get_Old_Product();
+        }
+        public List<string> getProductID()
+        {
+            return p.getProductID();
         }
     }
 }

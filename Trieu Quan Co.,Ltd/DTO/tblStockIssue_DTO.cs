@@ -9,7 +9,7 @@ namespace DTO
     public class tblStockIssue_DTO
     {
         private string ID, DateOfIssue, DistributorCode, Status;
-        private int TotalValue;
+        private decimal TotalValue;
         public string _ID
         {
             get { return ID; }
@@ -34,13 +34,13 @@ namespace DTO
             set { Status = value; }
         }
 
-        public int _TotalValue
+        public decimal _TotalValue
         {
             get { return TotalValue; }
             set { TotalValue = value; }
         }
 
-        public tblStockIssue_DTO(string ID, string DateOfIssue, string DistributorCode, int TotalValue, string status)
+        public tblStockIssue_DTO(string ID, string DateOfIssue, string DistributorCode, decimal TotalValue, string status)
         {
             this.ID = ID;
             this.DateOfIssue = DateOfIssue;

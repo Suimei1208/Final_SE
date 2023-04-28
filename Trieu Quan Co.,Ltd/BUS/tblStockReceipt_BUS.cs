@@ -11,7 +11,7 @@ namespace BUS
     public class tblStockReceipt_BUS
     {
         tblStockReceipt_DAL p;
-        public tblStockReceipt_BUS(string ID, string DateOfReceipt,int accountant_id, string SupplierCode, int TotalValue)
+        public tblStockReceipt_BUS(string ID, string DateOfReceipt,int accountant_id, string SupplierCode, decimal TotalValue)
         {
             p = new tblStockReceipt_DAL( ID,  DateOfReceipt, accountant_id, SupplierCode,  TotalValue);
         }
@@ -23,6 +23,11 @@ namespace BUS
         {
             p.addQuery();
         }
+        public void updateTotal()
+        {
+            p.updateTotal();
+        }
+        public void deleteAll() { p.deleteQuery_all(); }
         public string getID_tblStockReceipt()
         {
             DataTable tb = p.getProjectDesc();

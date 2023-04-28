@@ -9,7 +9,8 @@ namespace DTO
     public class tblStockReceipt_DTO
     {
         private string ID, DateOfReceipt, SupplierCode;
-        private int TotalValue, accountant_id;
+        private decimal TotalValue;
+        private int accountant_id;
         public string _ID
         {
             get { return ID; }
@@ -28,7 +29,7 @@ namespace DTO
             set { SupplierCode = value; }
         }
 
-        public int _TotalValue
+        public decimal _TotalValue
         {
             get { return TotalValue; }
             set { TotalValue = value; }
@@ -40,7 +41,7 @@ namespace DTO
             set { accountant_id = value; }
         }
 
-        public tblStockReceipt_DTO(string ID, string DateOfReceipt, int accountant_id, string SupplierCode, int TotalValue)
+        public tblStockReceipt_DTO(string ID, string DateOfReceipt, int accountant_id, string SupplierCode, decimal TotalValue)
         {
             this.ID = ID;
             this.DateOfReceipt = DateOfReceipt;

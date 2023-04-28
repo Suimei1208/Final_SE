@@ -11,7 +11,7 @@ namespace DAL
     public class tblStockIssue_DAL
     {
         tblStockIssue_DTO p;
-        public tblStockIssue_DAL(string ID, string DateOfIssue, string DistributorCode, int TotalValue, string Status)
+        public tblStockIssue_DAL(string ID, string DateOfIssue, string DistributorCode, decimal TotalValue, string Status)
         {
             p = new tblStockIssue_DTO(ID,   DateOfIssue, DistributorCode, TotalValue, Status);
         }
