@@ -80,7 +80,8 @@ CREATE TABLE tblStockInOutSummary(
 	ID varchar(30) PRIMARY KEY,
 	ItemCode varchar(30),
 	QuantityOut int,
-	QuantityIn int
+	QuantityIn int,
+	DateCrate date,
 	FOREIGN KEY (ItemCode) REFERENCES Products(ProductID)
 )
 
@@ -140,34 +141,11 @@ BEGIN
     WHERE s.QuantityIn = d.Quantity;
 END
 
-CREATE TRIGGER trg_UpdateStockInOutSummary
-ON StockIssue
-AFTER UPDATE
-AS
-BEGIN
-  IF UPDATE(Status) OR UPDATE(PaymentStatus)
-  BEGIN
-    INSERT INTO tblStockInOutSummary (ID, ItemCode, QuantityOut, QuantityIn)
-    SELECT
-      NEWID(),
-      sid.ProductCode,
-      sid.Quantity,
-      0
-    FROM StockIssue si
-    JOIN StockIssueDetails sid ON si.ID = sid.ExportCode
-    WHERE (UPDATE(Status) AND si.Status IN ('Pending', 'Delivered'))
-      AND (UPDATE(PaymentStatus) AND si.PaymentStatus = 'Paid');
-  END
-END
-
-
-
 select * from Products
-select * from StockIssue
-delete from tblStockInOutSummary
+select * from tblStockReceiptDetails
+delete from tblStockReceiptDetails
 delete from StockIssueDetails
 select * from tblStockInOutSummary
-SELECT ID FROM StockIssue
 
 INSERT INTO Accountants
 VALUES (1, 'Admin', 'admin', '123456789'),
@@ -223,3 +201,4 @@ VALUES
 ('SID003', 'SI002', 'SP003', 30, 15000, 450000),
 ('SID004', 'SI003', 'SP004', 40, 20000, 800000),
 ('SID005', 'SI004', 'SP005', 50, 25000, 1250000);
+
