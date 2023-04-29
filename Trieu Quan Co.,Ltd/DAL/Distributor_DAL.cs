@@ -21,9 +21,9 @@ namespace DAL
             string s = "select username, password from Distributor where username ='" + p._Username + "' and password ='" + p._Password + "'";
             return Connection.selectQuery(s);
         }
-        public string getID_EM()
+        public string getID()
         {
-            string s = "select accountant_id from Distributor where username ='" + p._Username + "' and password ='" + p._Password + "'";
+            string s = "select Name from Distributor where ID = '" + p._ID + "'";
             DataTable dt = Connection.selectQuery(s);
             if (dt.Rows.Count > 0)
             {
@@ -31,5 +31,6 @@ namespace DAL
             }
             return null;
         }
+
     }
 }

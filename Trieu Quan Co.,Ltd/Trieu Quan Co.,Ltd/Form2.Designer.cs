@@ -30,7 +30,7 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            grd6 = new GroupBox();
+            grb7 = new GroupBox();
             del_all = new Button();
             del_detail = new Button();
             cancel = new Button();
@@ -75,10 +75,60 @@
             id_warehouse = new TextBox();
             label1 = new Label();
             tabPage2 = new TabPage();
+            pdf = new Button();
+            grb11 = new GroupBox();
+            grd4 = new DataGridView();
+            grb10 = new GroupBox();
+            product_id = new TextBox();
+            total_StockIssueDetails = new TextBox();
+            name_pro = new TextBox();
+            label22 = new Label();
+            label18 = new Label();
+            uni_StockIssueDetails = new TextBox();
+            label21 = new Label();
+            label23 = new Label();
+            id_StockIssueDetails = new TextBox();
+            quantity_StockIssueDetails = new TextBox();
+            label24 = new Label();
+            label25 = new Label();
+            id_StockIssue = new TextBox();
+            label26 = new Label();
+            grb9 = new GroupBox();
+            grd3 = new DataGridView();
+            grb8 = new GroupBox();
+            Distributor_name = new TextBox();
+            label27 = new Label();
+            id_Delivery_note = new ComboBox();
+            confirm = new Button();
+            PaymentStatus = new ComboBox();
+            label20 = new Label();
+            PaymentMethod = new TextBox();
+            label19 = new Label();
+            id_Distributor = new TextBox();
+            label17 = new Label();
+            status = new ComboBox();
+            total_Delivery_note = new TextBox();
+            label13 = new Label();
+            id_em_StockIssue = new TextBox();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
             tabPage3 = new TabPage();
+            textBox1 = new TextBox();
+            label30 = new Label();
+            groupBox4 = new GroupBox();
+            grd5 = new DataGridView();
+            groupBox3 = new GroupBox();
+            grd7 = new DataGridView();
+            groupBox1 = new GroupBox();
+            grd6 = new DataGridView();
+            year = new ComboBox();
+            label29 = new Label();
+            month = new ComboBox();
+            label28 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            grd6.SuspendLayout();
+            grb7.SuspendLayout();
             grb5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)grd2).BeginInit();
             grb4.SuspendLayout();
@@ -87,6 +137,20 @@
             grb6.SuspendLayout();
             grb3.SuspendLayout();
             grb1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            grb11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grd4).BeginInit();
+            grb10.SuspendLayout();
+            grb9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grd3).BeginInit();
+            grb8.SuspendLayout();
+            tabPage3.SuspendLayout();
+            groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grd5).BeginInit();
+            groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grd7).BeginInit();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grd6).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -102,7 +166,7 @@
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(grd6);
+            tabPage1.Controls.Add(grb7);
             tabPage1.Controls.Add(grb5);
             tabPage1.Controls.Add(grb4);
             tabPage1.Controls.Add(grb2);
@@ -116,21 +180,21 @@
             tabPage1.Text = "Warehouse";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // grd6
+            // grb7
             // 
-            grd6.Controls.Add(del_all);
-            grd6.Controls.Add(del_detail);
-            grd6.Controls.Add(cancel);
-            grd6.Controls.Add(print);
-            grd6.Controls.Add(add_pro);
-            grd6.Controls.Add(edit);
-            grd6.Controls.Add(save);
-            grd6.Location = new Point(675, 241);
-            grd6.Name = "grd6";
-            grd6.Size = new Size(682, 53);
-            grd6.TabIndex = 7;
-            grd6.TabStop = false;
-            grd6.Text = "Tool";
+            grb7.Controls.Add(del_all);
+            grb7.Controls.Add(del_detail);
+            grb7.Controls.Add(cancel);
+            grb7.Controls.Add(print);
+            grb7.Controls.Add(add_pro);
+            grb7.Controls.Add(edit);
+            grb7.Controls.Add(save);
+            grb7.Location = new Point(675, 241);
+            grb7.Name = "grb7";
+            grb7.Size = new Size(682, 53);
+            grb7.TabIndex = 7;
+            grb7.TabStop = false;
+            grb7.Text = "Tool";
             // 
             // del_all
             // 
@@ -561,6 +625,11 @@
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(pdf);
+            tabPage2.Controls.Add(grb11);
+            tabPage2.Controls.Add(grb10);
+            tabPage2.Controls.Add(grb9);
+            tabPage2.Controls.Add(grb8);
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
@@ -569,8 +638,380 @@
             tabPage2.Text = "Stock Issue";
             tabPage2.UseVisualStyleBackColor = true;
             // 
+            // pdf
+            // 
+            pdf.Location = new Point(959, 253);
+            pdf.Name = "pdf";
+            pdf.Size = new Size(147, 41);
+            pdf.TabIndex = 29;
+            pdf.Text = "PRINT PDF";
+            pdf.UseVisualStyleBackColor = true;
+            pdf.Click += pdf_Click;
+            // 
+            // grb11
+            // 
+            grb11.Controls.Add(grd4);
+            grb11.Location = new Point(691, 306);
+            grb11.Name = "grb11";
+            grb11.Size = new Size(655, 294);
+            grb11.TabIndex = 1;
+            grb11.TabStop = false;
+            grb11.Text = "Goods Delivery Note Details";
+            // 
+            // grd4
+            // 
+            grd4.AllowUserToAddRows = false;
+            grd4.AllowUserToDeleteRows = false;
+            grd4.AllowUserToResizeColumns = false;
+            grd4.AllowUserToResizeRows = false;
+            grd4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grd4.Location = new Point(6, 22);
+            grd4.Name = "grd4";
+            grd4.RowTemplate.Height = 25;
+            grd4.Size = new Size(628, 254);
+            grd4.TabIndex = 1;
+            grd4.CellClick += grd4_CellClick;
+            // 
+            // grb10
+            // 
+            grb10.Controls.Add(product_id);
+            grb10.Controls.Add(total_StockIssueDetails);
+            grb10.Controls.Add(name_pro);
+            grb10.Controls.Add(label22);
+            grb10.Controls.Add(label18);
+            grb10.Controls.Add(uni_StockIssueDetails);
+            grb10.Controls.Add(label21);
+            grb10.Controls.Add(label23);
+            grb10.Controls.Add(id_StockIssueDetails);
+            grb10.Controls.Add(quantity_StockIssueDetails);
+            grb10.Controls.Add(label24);
+            grb10.Controls.Add(label25);
+            grb10.Controls.Add(id_StockIssue);
+            grb10.Controls.Add(label26);
+            grb10.Location = new Point(691, 6);
+            grb10.Name = "grb10";
+            grb10.Size = new Size(655, 228);
+            grb10.TabIndex = 1;
+            grb10.TabStop = false;
+            grb10.Text = "Details";
+            // 
+            // product_id
+            // 
+            product_id.Location = new Point(101, 69);
+            product_id.Name = "product_id";
+            product_id.Size = new Size(221, 23);
+            product_id.TabIndex = 38;
+            // 
+            // total_StockIssueDetails
+            // 
+            total_StockIssueDetails.Location = new Point(304, 180);
+            total_StockIssueDetails.Name = "total_StockIssueDetails";
+            total_StockIssueDetails.Size = new Size(164, 23);
+            total_StockIssueDetails.TabIndex = 37;
+            // 
+            // name_pro
+            // 
+            name_pro.Location = new Point(436, 69);
+            name_pro.Name = "name_pro";
+            name_pro.Size = new Size(206, 23);
+            name_pro.TabIndex = 25;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(219, 188);
+            label22.Name = "label22";
+            label22.Size = new Size(79, 15);
+            label22.TabIndex = 36;
+            label22.Text = "Total Amount";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(15, 75);
+            label18.Name = "label18";
+            label18.Size = new Size(80, 15);
+            label18.TabIndex = 13;
+            label18.Text = "Product Code";
+            // 
+            // uni_StockIssueDetails
+            // 
+            uni_StockIssueDetails.Location = new Point(435, 121);
+            uni_StockIssueDetails.Name = "uni_StockIssueDetails";
+            uni_StockIssueDetails.Size = new Size(206, 23);
+            uni_StockIssueDetails.TabIndex = 35;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(331, 77);
+            label21.Name = "label21";
+            label21.Size = new Size(84, 15);
+            label21.TabIndex = 23;
+            label21.Text = "Product Name";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(331, 124);
+            label23.Name = "label23";
+            label23.Size = new Size(55, 15);
+            label23.TabIndex = 34;
+            label23.Text = "UnitPrice";
+            // 
+            // id_StockIssueDetails
+            // 
+            id_StockIssueDetails.Location = new Point(100, 22);
+            id_StockIssueDetails.Name = "id_StockIssueDetails";
+            id_StockIssueDetails.Size = new Size(210, 23);
+            id_StockIssueDetails.TabIndex = 29;
+            // 
+            // quantity_StockIssueDetails
+            // 
+            quantity_StockIssueDetails.Location = new Point(100, 116);
+            quantity_StockIssueDetails.Name = "quantity_StockIssueDetails";
+            quantity_StockIssueDetails.Size = new Size(222, 23);
+            quantity_StockIssueDetails.TabIndex = 33;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(15, 24);
+            label24.Name = "label24";
+            label24.Size = new Size(51, 15);
+            label24.TabIndex = 28;
+            label24.Text = "ID Detail";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(20, 124);
+            label25.Name = "label25";
+            label25.Size = new Size(53, 15);
+            label25.TabIndex = 32;
+            label25.Text = "Quantity";
+            // 
+            // id_StockIssue
+            // 
+            id_StockIssue.Location = new Point(454, 21);
+            id_StockIssue.Name = "id_StockIssue";
+            id_StockIssue.Size = new Size(188, 23);
+            id_StockIssue.TabIndex = 31;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(319, 24);
+            label26.Name = "label26";
+            label26.Size = new Size(129, 15);
+            label26.TabIndex = 30;
+            label26.Text = "Goods Delivery Note ID";
+            // 
+            // grb9
+            // 
+            grb9.Controls.Add(grd3);
+            grb9.Location = new Point(20, 306);
+            grb9.Name = "grb9";
+            grb9.Size = new Size(655, 294);
+            grb9.TabIndex = 1;
+            grb9.TabStop = false;
+            grb9.Text = "Goods Delivery Note";
+            // 
+            // grd3
+            // 
+            grd3.AllowUserToAddRows = false;
+            grd3.AllowUserToDeleteRows = false;
+            grd3.AllowUserToResizeColumns = false;
+            grd3.AllowUserToResizeRows = false;
+            grd3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grd3.Location = new Point(11, 22);
+            grd3.Name = "grd3";
+            grd3.RowTemplate.Height = 25;
+            grd3.Size = new Size(628, 254);
+            grd3.TabIndex = 0;
+            grd3.CellClick += grd3_CellClick;
+            // 
+            // grb8
+            // 
+            grb8.Controls.Add(Distributor_name);
+            grb8.Controls.Add(label27);
+            grb8.Controls.Add(id_Delivery_note);
+            grb8.Controls.Add(confirm);
+            grb8.Controls.Add(PaymentStatus);
+            grb8.Controls.Add(label20);
+            grb8.Controls.Add(PaymentMethod);
+            grb8.Controls.Add(label19);
+            grb8.Controls.Add(id_Distributor);
+            grb8.Controls.Add(label17);
+            grb8.Controls.Add(status);
+            grb8.Controls.Add(total_Delivery_note);
+            grb8.Controls.Add(label13);
+            grb8.Controls.Add(id_em_StockIssue);
+            grb8.Controls.Add(label14);
+            grb8.Controls.Add(label15);
+            grb8.Controls.Add(label16);
+            grb8.Location = new Point(20, 6);
+            grb8.Name = "grb8";
+            grb8.Size = new Size(655, 294);
+            grb8.TabIndex = 0;
+            grb8.TabStop = false;
+            grb8.Text = "Infomation";
+            // 
+            // Distributor_name
+            // 
+            Distributor_name.Location = new Point(458, 67);
+            Distributor_name.Name = "Distributor_name";
+            Distributor_name.Size = new Size(181, 23);
+            Distributor_name.TabIndex = 28;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(354, 70);
+            label27.Name = "label27";
+            label27.Size = new Size(98, 15);
+            label27.TabIndex = 27;
+            label27.Text = "Distributor Name";
+            // 
+            // id_Delivery_note
+            // 
+            id_Delivery_note.FormattingEnabled = true;
+            id_Delivery_note.Location = new Point(94, 16);
+            id_Delivery_note.Name = "id_Delivery_note";
+            id_Delivery_note.Size = new Size(244, 23);
+            id_Delivery_note.TabIndex = 26;
+            id_Delivery_note.SelectedIndexChanged += id_Delivery_note_SelectedIndexChanged;
+            // 
+            // confirm
+            // 
+            confirm.Location = new Point(550, 247);
+            confirm.Name = "confirm";
+            confirm.Size = new Size(99, 41);
+            confirm.TabIndex = 25;
+            confirm.Text = "Confirm";
+            confirm.UseVisualStyleBackColor = true;
+            confirm.Click += confirm_Click;
+            // 
+            // PaymentStatus
+            // 
+            PaymentStatus.FormattingEnabled = true;
+            PaymentStatus.Items.AddRange(new object[] { "Paid", "Unpaid" });
+            PaymentStatus.Location = new Point(449, 191);
+            PaymentStatus.Name = "PaymentStatus";
+            PaymentStatus.Size = new Size(174, 23);
+            PaymentStatus.TabIndex = 24;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(354, 194);
+            label20.Name = "label20";
+            label20.Size = new Size(89, 15);
+            label20.TabIndex = 23;
+            label20.Text = "Payment Status";
+            // 
+            // PaymentMethod
+            // 
+            PaymentMethod.Location = new Point(106, 116);
+            PaymentMethod.Name = "PaymentMethod";
+            PaymentMethod.Size = new Size(232, 23);
+            PaymentMethod.TabIndex = 22;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(6, 116);
+            label19.Name = "label19";
+            label19.Size = new Size(99, 15);
+            label19.TabIndex = 21;
+            label19.Text = "Payment Method";
+            // 
+            // id_Distributor
+            // 
+            id_Distributor.Location = new Point(94, 67);
+            id_Distributor.Name = "id_Distributor";
+            id_Distributor.Size = new Size(244, 23);
+            id_Distributor.TabIndex = 20;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(2, 191);
+            label17.Name = "label17";
+            label17.Size = new Size(39, 15);
+            label17.TabIndex = 19;
+            label17.Text = "Status";
+            // 
+            // status
+            // 
+            status.FormattingEnabled = true;
+            status.Items.AddRange(new object[] { "Pending", "Approved", "Delivered", "Cancelled" });
+            status.Location = new Point(85, 188);
+            status.Name = "status";
+            status.Size = new Size(244, 23);
+            status.TabIndex = 18;
+            // 
+            // total_Delivery_note
+            // 
+            total_Delivery_note.Location = new Point(433, 116);
+            total_Delivery_note.Name = "total_Delivery_note";
+            total_Delivery_note.Size = new Size(206, 23);
+            total_Delivery_note.TabIndex = 17;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(354, 119);
+            label13.Name = "label13";
+            label13.Size = new Size(63, 15);
+            label13.TabIndex = 16;
+            label13.Text = "Total Value";
+            // 
+            // id_em_StockIssue
+            // 
+            id_em_StockIssue.Location = new Point(433, 16);
+            id_em_StockIssue.Name = "id_em_StockIssue";
+            id_em_StockIssue.Size = new Size(206, 23);
+            id_em_StockIssue.TabIndex = 15;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(354, 19);
+            label14.Name = "label14";
+            label14.Size = new Size(73, 15);
+            label14.TabIndex = 14;
+            label14.Text = "Employee ID";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(11, 69);
+            label15.Name = "label15";
+            label15.Size = new Size(77, 15);
+            label15.TabIndex = 13;
+            label15.Text = "Distributor ID";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(19, 19);
+            label16.Name = "label16";
+            label16.Size = new Size(18, 15);
+            label16.TabIndex = 11;
+            label16.Text = "ID";
+            // 
             // tabPage3
             // 
+            tabPage3.Controls.Add(textBox1);
+            tabPage3.Controls.Add(label30);
+            tabPage3.Controls.Add(groupBox4);
+            tabPage3.Controls.Add(groupBox3);
+            tabPage3.Controls.Add(groupBox1);
+            tabPage3.Controls.Add(year);
+            tabPage3.Controls.Add(label29);
+            tabPage3.Controls.Add(month);
+            tabPage3.Controls.Add(label28);
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
@@ -578,6 +1019,128 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Statistics and ratings";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(894, 481);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(244, 23);
+            textBox1.TabIndex = 6;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(856, 484);
+            label30.Name = "label30";
+            label30.Size = new Size(32, 15);
+            label30.TabIndex = 5;
+            label30.Text = "Total";
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(grd5);
+            groupBox4.Location = new Point(6, 44);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(655, 276);
+            groupBox4.TabIndex = 2;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Quantity In ";
+            // 
+            // grd5
+            // 
+            grd5.AllowUserToAddRows = false;
+            grd5.AllowUserToDeleteRows = false;
+            grd5.AllowUserToResizeColumns = false;
+            grd5.AllowUserToResizeRows = false;
+            grd5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grd5.Location = new Point(11, 22);
+            grd5.Name = "grd5";
+            grd5.RowTemplate.Height = 25;
+            grd5.Size = new Size(628, 239);
+            grd5.TabIndex = 0;
+            // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(grd7);
+            groupBox3.Location = new Point(706, 44);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(655, 294);
+            groupBox3.TabIndex = 2;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Quantity Out";
+            // 
+            // grd7
+            // 
+            grd7.AllowUserToAddRows = false;
+            grd7.AllowUserToDeleteRows = false;
+            grd7.AllowUserToResizeColumns = false;
+            grd7.AllowUserToResizeRows = false;
+            grd7.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grd7.Location = new Point(11, 22);
+            grd7.Name = "grd7";
+            grd7.RowTemplate.Height = 25;
+            grd7.Size = new Size(628, 254);
+            grd7.TabIndex = 0;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(grd6);
+            groupBox1.Location = new Point(6, 326);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(655, 287);
+            groupBox1.TabIndex = 4;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Best-Selling Products";
+            // 
+            // grd6
+            // 
+            grd6.AllowUserToAddRows = false;
+            grd6.AllowUserToDeleteRows = false;
+            grd6.AllowUserToResizeColumns = false;
+            grd6.AllowUserToResizeRows = false;
+            grd6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            grd6.Location = new Point(11, 22);
+            grd6.Name = "grd6";
+            grd6.RowTemplate.Height = 25;
+            grd6.Size = new Size(628, 259);
+            grd6.TabIndex = 0;
+            // 
+            // year
+            // 
+            year.FormattingEnabled = true;
+            year.Location = new Point(759, 9);
+            year.Name = "year";
+            year.Size = new Size(289, 23);
+            year.TabIndex = 3;
+            year.SelectedIndexChanged += year_SelectedIndexChanged;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(667, 12);
+            label29.Name = "label29";
+            label29.Size = new Size(72, 15);
+            label29.TabIndex = 2;
+            label29.Text = "Choose Year";
+            // 
+            // month
+            // 
+            month.FormattingEnabled = true;
+            month.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
+            month.Location = new Point(305, 6);
+            month.Name = "month";
+            month.Size = new Size(289, 23);
+            month.TabIndex = 1;
+            month.SelectedIndexChanged += month_SelectedIndexChanged;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(213, 9);
+            label28.Name = "label28";
+            label28.Size = new Size(86, 15);
+            label28.TabIndex = 0;
+            label28.Text = "Choose Month";
             // 
             // Form2
             // 
@@ -590,7 +1153,7 @@
             Load += Form2_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
-            grd6.ResumeLayout(false);
+            grb7.ResumeLayout(false);
             grb5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)grd2).EndInit();
             grb4.ResumeLayout(false);
@@ -602,6 +1165,23 @@
             grb3.ResumeLayout(false);
             grb1.ResumeLayout(false);
             grb1.PerformLayout();
+            tabPage2.ResumeLayout(false);
+            grb11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grd4).EndInit();
+            grb10.ResumeLayout(false);
+            grb10.PerformLayout();
+            grb9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grd3).EndInit();
+            grb8.ResumeLayout(false);
+            grb8.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grd5).EndInit();
+            groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grd7).EndInit();
+            groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grd6).EndInit();
             ResumeLayout(false);
         }
 
@@ -612,7 +1192,7 @@
         private TabPage tabPage2;
         private GroupBox grb1;
         private Label label1;
-        private TextBox textBox4;
+        private TextBox uni_StockIssueDetails;
         private Label label5;
         private Label label4;
         private TextBox id_em;
@@ -652,18 +1232,61 @@
         private RadioButton old_pro;
         private ComboBox code_product;
         private Button cancel;
-        private GroupBox grd6;
+        private GroupBox grb7;
         private Button del_all;
         private Button del_detail;
         private TabPage tabPage3;
-        private DataGridView dataGridView2;
-        private DataGridView dataGridView1;
-        private GroupBox groupBox2;
-        private GroupBox groupBox1;
-        private Label label18;
-        private TextBox textBox8;
+        private DataGridView grd4;
+        private DataGridView grd3;
+        private TextBox product_id;
         private TextBox textBox14;
         private TextBox textBox10;
         private TextBox textBox11;
+        private GroupBox grb11;
+        private GroupBox grb10;
+        private GroupBox grb9;
+        private GroupBox grb8;
+        private ComboBox status;
+        private TextBox total_Delivery_note;
+        private Label label13;
+        private TextBox id_em_StockIssue;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private TextBox id_Distributor;
+        private Label label20;
+        private TextBox PaymentMethod;
+        private Label label19;
+        private ComboBox PaymentStatus;
+        private Button confirm;
+        private TextBox total_StockIssueDetails;
+        private Label label22;
+        private Label label23;
+        private TextBox id_StockIssueDetails;
+        private TextBox quantity_StockIssueDetails;
+        private Label label24;
+        private Label label25;
+        private TextBox id_StockIssue;
+        private Label label26;
+        private TextBox name_pro;
+        private Label label18;
+        private Label label21;
+        private ComboBox id_Delivery_note;
+        private TextBox Distributor_name;
+        private Label label27;
+        private Button pdf;
+        private ComboBox year;
+        private Label label29;
+        private ComboBox month;
+        private Label label28;
+        private GroupBox groupBox4;
+        private DataGridView grd5;
+        private GroupBox groupBox3;
+        private DataGridView grd7;
+        private GroupBox groupBox1;
+        private DataGridView grd6;
+        private TextBox textBox1;
+        private Label label30;
     }
 }

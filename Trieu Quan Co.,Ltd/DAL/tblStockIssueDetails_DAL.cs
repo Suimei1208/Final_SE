@@ -18,8 +18,10 @@ namespace DAL
 
         public DataTable selectQuery()
         {
-            string s = "select * from tblStockIssueDetails";
+            string s = "select * from StockIssueDetails where ExportCode = '" + p._ExportCode + "'";
             return Connection.selectQuery(s);
         }
+
+
     }
 }

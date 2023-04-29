@@ -36,23 +36,26 @@ CREATE TABLE Distributor (
 );
 
 CREATE TABLE StockIssue (
-	ID VARCHAR(50) PRIMARY KEY,
+	ID VARCHAR(100) PRIMARY KEY,
 	DateOfIssue DATE,
 	DistributorCode VARCHAR(50),
 	TotalValue DECIMAL,
-	Status VARCHAR(50),
-	PaymentMethod VARCHAR(50),
-	PaymentStatus VARCHAR(50),
+	Status VARCHAR(100),
+	PaymentMethod VARCHAR(100),
+	PaymentStatus VARCHAR(100),
 	accountant_id INT,
 	FOREIGN KEY (accountant_id) REFERENCES Accountants(accountant_id),
 	FOREIGN KEY (DistributorCode) REFERENCES Distributor(ID)
 );
+ALTER TABLE StockIssue
+ADD CONSTRAINT DF_StockIssue_Status DEFAULT 'Pending' FOR Status;
+
 
 
 CREATE TABLE StockIssueDetails (
-	ID VARCHAR(50) PRIMARY KEY,
-	ExportCode VARCHAR(50),
-	ProductCode VARCHAR(50),
+	ID VARCHAR(100) PRIMARY KEY,
+	ExportCode VARCHAR(100),
+	ProductCode VARCHAR(100),
 	Quantity DECIMAL,
 	UnitPrice DECIMAL,
 	TotalAmount DECIMAL,
@@ -137,16 +140,34 @@ BEGIN
     WHERE s.QuantityIn = d.Quantity;
 END
 
+CREATE TRIGGER trg_UpdateStockInOutSummary
+ON StockIssue
+AFTER UPDATE
+AS
+BEGIN
+  IF UPDATE(Status) OR UPDATE(PaymentStatus)
+  BEGIN
+    INSERT INTO tblStockInOutSummary (ID, ItemCode, QuantityOut, QuantityIn)
+    SELECT
+      NEWID(),
+      sid.ProductCode,
+      sid.Quantity,
+      0
+    FROM StockIssue si
+    JOIN StockIssueDetails sid ON si.ID = sid.ExportCode
+    WHERE (UPDATE(Status) AND si.Status IN ('Pending', 'Delivered'))
+      AND (UPDATE(PaymentStatus) AND si.PaymentStatus = 'Paid');
+  END
+END
 
 
 
 select * from Products
 select * from StockIssue
 delete from tblStockInOutSummary
-delete from tblStockReceiptDetails
+delete from StockIssueDetails
 select * from tblStockInOutSummary
-SELECT TOP 1 ProductID FROM Products ORDER BY ProductID DESC
-
+SELECT ID FROM StockIssue
 
 INSERT INTO Accountants
 VALUES (1, 'Admin', 'admin', '123456789'),
@@ -197,8 +218,8 @@ VALUES
 
 INSERT INTO StockIssueDetails (ID, ExportCode, ProductCode, Quantity, UnitPrice, TotalAmount)
 VALUES
-('SID001', 'SI001', 'PD001', 10, 5000, 50000),
-('SID002', 'SI001', 'PD002', 20, 10000, 200000),
-('SID003', 'SI002', 'PD003', 30, 15000, 450000),
-('SID004', 'SI003', 'PD004', 40, 20000, 800000),
-('SID005', 'SI004', 'PD005', 50, 25000, 1250000);
+('SID001', 'SI001', 'SP001', 10, 5000, 50000),
+('SID002', 'SI001', 'SP002', 20, 10000, 200000),
+('SID003', 'SI002', 'SP003', 30, 15000, 450000),
+('SID004', 'SI003', 'SP004', 40, 20000, 800000),
+('SID005', 'SI004', 'SP005', 50, 25000, 1250000);

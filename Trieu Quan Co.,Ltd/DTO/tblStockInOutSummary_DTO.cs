@@ -8,7 +8,7 @@ namespace DTO
 {
     public class tblStockInOutSummary_DTO
     {
-        private string ID, ItemCode;
+        private string ID, ItemCode, DateCrate;
         private int QuantityOut, QuantityIn;
 
         public string _ID
@@ -21,6 +21,12 @@ namespace DTO
         {
             get { return ItemCode; }
             set { ItemCode = value; }
+        }
+
+        public string _DateCrate
+        {
+            get { return DateCrate; }
+            set { DateCrate = value; }
         }
 
         public int _QuantityOut
@@ -38,12 +44,13 @@ namespace DTO
             }
         }
 
-        public tblStockInOutSummary_DTO(string ID, string ItemCode, int QuantityOut, int QuantityIn)
+        public tblStockInOutSummary_DTO(string ID, string ItemCode, int QuantityOut, int QuantityIn, string dateCrate)
         {
             this.ID = ID;
             this.ItemCode = ItemCode;
             this.QuantityOut = QuantityOut;
             this.QuantityIn = QuantityIn;
+            this.DateCrate = dateCrate;
         }
     }
 }

@@ -20,5 +20,21 @@ namespace BUS
         {
             return p.selectQuery();
         }
+        public List<string> getID()
+        {
+            return p.getID();
+        }
+        public (string, string, string, string, string) get_info()
+        {
+            return p.get_info();
+        }
+        public void updateQuery()
+        {
+            p.updateQuery();
+        }
+        public decimal GetTotalAmountByMonthYear(int month, int year)
+        {
+            return p.GetTotalAmountByMonthYear(month, year);
+        }
     }
 }

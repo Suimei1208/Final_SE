@@ -11,9 +11,9 @@ namespace BUS
     public class tblStockInOutSummary_BUS
     {
         tblStockInOutSummary_DAL p;
-        public tblStockInOutSummary_BUS(string ID, string ItemCode, int QuantityOut, int QuantityIn)
+        public tblStockInOutSummary_BUS(string ID, string ItemCode, int QuantityOut, int QuantityIn, string DateCrate)
         {
-            p = new tblStockInOutSummary_DAL(ID, ItemCode, QuantityOut, QuantityIn);
+            p = new tblStockInOutSummary_DAL(ID, ItemCode, QuantityOut, QuantityIn, DateCrate);
         }
         public DataTable selectQuery()
         {
@@ -44,6 +44,18 @@ namespace BUS
             {
                 return "0001";
             }
+        }
+        public DataTable getStockOutSummaryByMonthYear(int month, int year)
+        {
+            return p.getStockOutSummaryByMonthYear(month, year);
+        }
+        public DataTable getStockInSummaryByMonthYear(int month, int year)
+        {
+            return p.getStockInSummaryByMonthYear(month, year);
+        }
+        public DataTable top(int month, int year)
+        {
+            return p.top(month, year);
         }
     }
 }

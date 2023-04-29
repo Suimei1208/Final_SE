@@ -19,9 +19,9 @@ namespace BUS
         {
             return p.selectQuery();
         }
-        public string getID_EM()
+        public string getID()
         {
-            return p.getID_EM();
+            return p.getID();
         }
     }
 }
