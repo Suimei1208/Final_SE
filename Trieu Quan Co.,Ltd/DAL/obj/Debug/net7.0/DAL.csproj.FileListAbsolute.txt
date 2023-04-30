@@ -43,3 +43,18 @@ C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\refint\DAL.dll
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\bin\Debug\net7.0\DTO.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\bin\Debug\net7.0\DTO.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DAL\obj\Debug\net7.0\ref\DAL.dll

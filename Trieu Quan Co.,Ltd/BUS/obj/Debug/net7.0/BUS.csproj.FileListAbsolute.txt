@@ -49,3 +49,20 @@ C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\refint\BUS.dll
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.pdb
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\ref\BUS.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\BUS.deps.json
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\BUS.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\BUS.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\DAL.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\DTO.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\DAL.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\bin\Debug\net7.0\DTO.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.csproj.AssemblyReference.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.AssemblyInfoInputs.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.AssemblyInfo.cs
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.csproj.CopyComplete
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\refint\BUS.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\BUS.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\BUS\obj\Debug\net7.0\ref\BUS.dll

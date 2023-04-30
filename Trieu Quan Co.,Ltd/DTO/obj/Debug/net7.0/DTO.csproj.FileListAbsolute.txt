@@ -34,3 +34,15 @@ C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\refint\DTO.dll
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.pdb
 C:\Users\Acer\Source\Repos\Final_SE\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\ref\DTO.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\Minh Quan\Downloads\final_se\Trieu Quan Co.,Ltd\DTO\obj\Debug\net7.0\ref\DTO.dll
