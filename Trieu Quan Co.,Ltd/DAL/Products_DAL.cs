@@ -53,5 +53,10 @@ namespace DAL
             string query = "insert into Products values('" + p._ProductID + "','" + p._ProductName + "'," + p._Quantity +"," + p._UnitPrice +")";
             Connection.selectQuery(query);
         }
+        public void update()
+        {
+            string query = "update Products set quantity = quantity - " + p._Quantity + " where ProductID = '" + p._ProductID + "'";
+            Connection.selectQuery(query);
+        }
     }
 }

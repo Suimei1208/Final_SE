@@ -51,5 +51,9 @@ namespace BUS
         {
             return p.getProductID();
         }
+        public void updae()
+        {
+            p.update();
+        }
     }
 }

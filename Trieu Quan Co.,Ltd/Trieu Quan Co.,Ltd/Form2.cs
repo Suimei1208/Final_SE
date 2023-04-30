@@ -455,7 +455,7 @@ namespace Trieu_Quan_Co._Ltd
             tblStockIssue.updateQuery();
             grd3.DataSource = tblStockIssue.selectQuery();
 
-            if ((status.Text == "Pending" || status.Text == "Delivered") && PaymentStatus.Text == "Paid")
+            if ((status.Text == "Approved" || status.Text == "Delivered") && PaymentStatus.Text == "Paid")
             {
                 foreach (DataGridViewRow row in grd4.Rows)
                 {
@@ -464,6 +464,9 @@ namespace Trieu_Quan_Co._Ltd
 
                     SOS = new tblStockInOutSummary_BUS(ID_tblStockInOutSummary, row.Cells[2].Value.ToString(), int.Parse(row.Cells[3].Value.ToString()), 0, DateTime.Today.ToString("yyyy-MM-dd"));
                     SOS.addQuery();
+
+                    products = new Products_BUS(row.Cells[2].Value.ToString(), "", int.Parse(row.Cells[3].Value.ToString()), 0);
+                    products.updae();
                 }
 
             }

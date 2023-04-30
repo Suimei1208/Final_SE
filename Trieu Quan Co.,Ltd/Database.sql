@@ -141,6 +141,12 @@ BEGIN
     WHERE s.QuantityIn = d.Quantity;
 END
 
+
+
+
+
+
+
 select * from Products
 select * from tblStockReceiptDetails
 delete from tblStockReceiptDetails
