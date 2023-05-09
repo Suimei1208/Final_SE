@@ -1082,7 +1082,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(1022, 641);
+            this.textBox1.Location = new System.Drawing.Point(931, 509);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(278, 27);
@@ -1131,7 +1131,7 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox3.Size = new System.Drawing.Size(749, 392);
+            this.groupBox3.Size = new System.Drawing.Size(749, 368);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Quantity Out";
@@ -1148,7 +1148,7 @@
             this.grd7.Name = "grd7";
             this.grd7.RowHeadersWidth = 51;
             this.grd7.RowTemplate.Height = 25;
-            this.grd7.Size = new System.Drawing.Size(718, 339);
+            this.grd7.Size = new System.Drawing.Size(718, 319);
             this.grd7.TabIndex = 0;
             // 
             // groupBox1
@@ -1175,13 +1175,13 @@
             this.grd6.Name = "grd6";
             this.grd6.RowHeadersWidth = 51;
             this.grd6.RowTemplate.Height = 25;
-            this.grd6.Size = new System.Drawing.Size(718, 345);
+            this.grd6.Size = new System.Drawing.Size(718, 346);
             this.grd6.TabIndex = 0;
             // 
             // year
             // 
             this.year.FormattingEnabled = true;
-            this.year.Location = new System.Drawing.Point(867, 12);
+            this.year.Location = new System.Drawing.Point(903, 13);
             this.year.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.year.Name = "year";
             this.year.Size = new System.Drawing.Size(330, 28);
@@ -1190,7 +1190,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(771, 16);
+            this.label29.Location = new System.Drawing.Point(807, 16);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(90, 20);
             this.label29.TabIndex = 2;
@@ -1212,7 +1212,7 @@
             "10",
             "11",
             "12"});
-            this.month.Location = new System.Drawing.Point(408, 13);
+            this.month.Location = new System.Drawing.Point(426, 13);
             this.month.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.month.Name = "month";
             this.month.Size = new System.Drawing.Size(330, 28);
@@ -1221,7 +1221,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(297, 16);
+            this.label28.Location = new System.Drawing.Point(315, 16);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(105, 20);
             this.label28.TabIndex = 0;
