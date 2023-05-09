@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1/4vFpws78gsM7g8wz2U52/AmZ82PxXTcJBS6yEf+NSu3BiIWZw1kkFJIMFtWX3sVW7CWfe1CSc65ceeX8LJQg==",
+  "dgSpecHash": "garU7spIA47PkTwp4xVpyDaY2kWuObM9aP7ijMP45HRb5D+1IROkpfrGviVdUSj1LUMPB7PpfI5GTjUYZUMzrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Minh Quan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Minh Quan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

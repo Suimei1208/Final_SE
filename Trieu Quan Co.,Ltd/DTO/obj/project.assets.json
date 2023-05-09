@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
+      "projectPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",

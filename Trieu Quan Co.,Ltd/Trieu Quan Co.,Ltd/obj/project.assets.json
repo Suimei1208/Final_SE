@@ -583,11 +583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
+      "projectUniqueName": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
       "projectName": "Trieu Quan Co.,Ltd",
-      "projectPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
+      "projectPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd.csproj",
       "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\obj\\",
+      "outputPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\Trieu Quan Co.,Ltd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -604,8 +604,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj": {
-              "projectPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj"
+            "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj": {
+              "projectPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\BUS\\BUS.csproj"
             }
           }
         }

@@ -494,11 +494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Minh Quan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Minh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -515,8 +515,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\Minh Quan\\Downloads\\final_se\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj"
+            "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\Minh Quan\\OneDrive\\Desktop\\CNPM_FINAL\\Trieu Quan Co.,Ltd\\DTO\\DTO.csproj"
             }
           }
         }
