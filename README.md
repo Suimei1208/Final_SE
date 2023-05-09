@@ -13,3 +13,9 @@ You can select the ID in the option or click on the data in the left table and c
 
 Statistic and Ranking tab:
 Select the month and year to display the corresponding data.
+
+Web Form:
+All features are the same as in the Win Form (if you log in with admin and 123456789). If you log in with this account:
+Username: user1
+Password: 123456
+The browser will automatically redirect you to the agents' order page, where you can select products and quantities, add them to your cart, select a payment method, and press Payment.
