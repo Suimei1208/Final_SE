@@ -202,7 +202,7 @@
             // 
             // del_all
             // 
-            this.del_all.Location = new System.Drawing.Point(448, 25);
+            this.del_all.Location = new System.Drawing.Point(447, 26);
             this.del_all.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.del_all.Name = "del_all";
             this.del_all.Size = new System.Drawing.Size(114, 31);
@@ -212,7 +212,7 @@
             // 
             // del_detail
             // 
-            this.del_detail.Location = new System.Drawing.Point(353, 25);
+            this.del_detail.Location = new System.Drawing.Point(351, 26);
             this.del_detail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.del_detail.Name = "del_detail";
             this.del_detail.Size = new System.Drawing.Size(86, 31);
@@ -222,7 +222,7 @@
             // 
             // cancel
             // 
-            this.cancel.Location = new System.Drawing.Point(573, 25);
+            this.cancel.Location = new System.Drawing.Point(570, 26);
             this.cancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cancel.Name = "cancel";
             this.cancel.Size = new System.Drawing.Size(86, 31);
@@ -232,7 +232,7 @@
             // 
             // print
             // 
-            this.print.Location = new System.Drawing.Point(664, 24);
+            this.print.Location = new System.Drawing.Point(664, 26);
             this.print.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.print.Name = "print";
             this.print.Size = new System.Drawing.Size(86, 31);
@@ -242,7 +242,7 @@
             // 
             // add_pro
             // 
-            this.add_pro.Location = new System.Drawing.Point(7, 28);
+            this.add_pro.Location = new System.Drawing.Point(7, 27);
             this.add_pro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.add_pro.Name = "add_pro";
             this.add_pro.Size = new System.Drawing.Size(150, 32);
@@ -291,12 +291,12 @@
             this.grd2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grd2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.grd2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grd2.Location = new System.Drawing.Point(22, 29);
+            this.grd2.Location = new System.Drawing.Point(11, 29);
             this.grd2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grd2.Name = "grd2";
             this.grd2.RowHeadersWidth = 51;
             this.grd2.RowTemplate.Height = 25;
-            this.grd2.Size = new System.Drawing.Size(751, 359);
+            this.grd2.Size = new System.Drawing.Size(739, 359);
             this.grd2.TabIndex = 1;
             // 
             // grb4
@@ -369,10 +369,10 @@
             // code_product
             // 
             this.code_product.FormattingEnabled = true;
-            this.code_product.Location = new System.Drawing.Point(128, 92);
+            this.code_product.Location = new System.Drawing.Point(141, 92);
             this.code_product.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.code_product.Name = "code_product";
-            this.code_product.Size = new System.Drawing.Size(278, 28);
+            this.code_product.Size = new System.Drawing.Size(235, 28);
             this.code_product.TabIndex = 11;
             // 
             // new_pro
@@ -444,10 +444,10 @@
             // 
             // UnitPrice
             // 
-            this.UnitPrice.Location = new System.Drawing.Point(517, 156);
+            this.UnitPrice.Location = new System.Drawing.Point(541, 156);
             this.UnitPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UnitPrice.Name = "UnitPrice";
-            this.UnitPrice.Size = new System.Drawing.Size(211, 27);
+            this.UnitPrice.Size = new System.Drawing.Size(187, 27);
             this.UnitPrice.TabIndex = 20;
             // 
             // label10
@@ -469,16 +469,16 @@
             // 
             // Quantity
             // 
-            this.Quantity.Location = new System.Drawing.Point(517, 85);
+            this.Quantity.Location = new System.Drawing.Point(541, 85);
             this.Quantity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Quantity.Name = "Quantity";
-            this.Quantity.Size = new System.Drawing.Size(211, 27);
+            this.Quantity.Size = new System.Drawing.Size(187, 27);
             this.Quantity.TabIndex = 17;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(11, 32);
+            this.label9.Location = new System.Drawing.Point(13, 32);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 20);
             this.label9.TabIndex = 11;
@@ -495,16 +495,16 @@
             // 
             // id_we_de
             // 
-            this.id_we_de.Location = new System.Drawing.Point(493, 28);
+            this.id_we_de.Location = new System.Drawing.Point(541, 28);
             this.id_we_de.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.id_we_de.Name = "id_we_de";
-            this.id_we_de.Size = new System.Drawing.Size(235, 27);
+            this.id_we_de.Size = new System.Drawing.Size(187, 27);
             this.id_we_de.TabIndex = 15;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(394, 32);
+            this.label7.Location = new System.Drawing.Point(430, 31);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(101, 20);
             this.label7.TabIndex = 14;
@@ -525,7 +525,7 @@
             // 
             // del
             // 
-            this.del.Location = new System.Drawing.Point(209, 23);
+            this.del.Location = new System.Drawing.Point(194, 23);
             this.del.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.del.Name = "del";
             this.del.Size = new System.Drawing.Size(86, 31);
@@ -535,7 +535,7 @@
             // 
             // add_ware
             // 
-            this.add_ware.Location = new System.Drawing.Point(23, 21);
+            this.add_ware.Location = new System.Drawing.Point(23, 24);
             this.add_ware.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.add_ware.Name = "add_ware";
             this.add_ware.Size = new System.Drawing.Size(150, 31);
@@ -592,7 +592,7 @@
             // 
             // total
             // 
-            this.total.Location = new System.Drawing.Point(496, 146);
+            this.total.Location = new System.Drawing.Point(496, 95);
             this.total.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.total.Name = "total";
             this.total.Size = new System.Drawing.Size(235, 27);
@@ -668,7 +668,7 @@
             // 
             // pdf
             // 
-            this.pdf.Location = new System.Drawing.Point(1096, 337);
+            this.pdf.Location = new System.Drawing.Point(1335, 337);
             this.pdf.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pdf.Name = "pdf";
             this.pdf.Size = new System.Drawing.Size(168, 55);
@@ -700,7 +700,7 @@
             this.grd4.Name = "grd4";
             this.grd4.RowHeadersWidth = 51;
             this.grd4.RowTemplate.Height = 25;
-            this.grd4.Size = new System.Drawing.Size(718, 339);
+            this.grd4.Size = new System.Drawing.Size(736, 355);
             this.grd4.TabIndex = 1;
             // 
             // grb10
@@ -733,38 +733,39 @@
             this.product_id.Location = new System.Drawing.Point(115, 92);
             this.product_id.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.product_id.Name = "product_id";
-            this.product_id.Size = new System.Drawing.Size(252, 27);
+            this.product_id.Size = new System.Drawing.Size(238, 27);
             this.product_id.TabIndex = 38;
             // 
             // total_StockIssueDetails
             // 
-            this.total_StockIssueDetails.Location = new System.Drawing.Point(347, 240);
+            this.total_StockIssueDetails.Location = new System.Drawing.Point(541, 227);
             this.total_StockIssueDetails.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.total_StockIssueDetails.Name = "total_StockIssueDetails";
-            this.total_StockIssueDetails.Size = new System.Drawing.Size(187, 27);
+            this.total_StockIssueDetails.Size = new System.Drawing.Size(191, 27);
             this.total_StockIssueDetails.TabIndex = 37;
             // 
             // name_pro
             // 
-            this.name_pro.Location = new System.Drawing.Point(498, 92);
+            this.name_pro.Location = new System.Drawing.Point(541, 92);
             this.name_pro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.name_pro.Name = "name_pro";
-            this.name_pro.Size = new System.Drawing.Size(235, 27);
+            this.name_pro.Size = new System.Drawing.Size(192, 27);
             this.name_pro.TabIndex = 25;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(250, 251);
+            this.label22.Location = new System.Drawing.Point(378, 232);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(99, 20);
             this.label22.TabIndex = 36;
             this.label22.Text = "Total Amount";
+            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(17, 100);
+            this.label18.Location = new System.Drawing.Point(17, 99);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(99, 20);
             this.label18.TabIndex = 13;
@@ -772,10 +773,10 @@
             // 
             // uni_StockIssueDetails
             // 
-            this.uni_StockIssueDetails.Location = new System.Drawing.Point(497, 161);
+            this.uni_StockIssueDetails.Location = new System.Drawing.Point(541, 161);
             this.uni_StockIssueDetails.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.uni_StockIssueDetails.Name = "uni_StockIssueDetails";
-            this.uni_StockIssueDetails.Size = new System.Drawing.Size(235, 27);
+            this.uni_StockIssueDetails.Size = new System.Drawing.Size(191, 27);
             this.uni_StockIssueDetails.TabIndex = 35;
             // 
             // label21
@@ -809,7 +810,7 @@
             this.quantity_StockIssueDetails.Location = new System.Drawing.Point(114, 155);
             this.quantity_StockIssueDetails.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.quantity_StockIssueDetails.Name = "quantity_StockIssueDetails";
-            this.quantity_StockIssueDetails.Size = new System.Drawing.Size(253, 27);
+            this.quantity_StockIssueDetails.Size = new System.Drawing.Size(239, 27);
             this.quantity_StockIssueDetails.TabIndex = 33;
             // 
             // label24
@@ -824,7 +825,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(23, 165);
+            this.label25.Location = new System.Drawing.Point(17, 161);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(65, 20);
             this.label25.TabIndex = 32;
@@ -832,10 +833,10 @@
             // 
             // id_StockIssue
             // 
-            this.id_StockIssue.Location = new System.Drawing.Point(519, 28);
+            this.id_StockIssue.Location = new System.Drawing.Point(541, 28);
             this.id_StockIssue.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.id_StockIssue.Name = "id_StockIssue";
-            this.id_StockIssue.Size = new System.Drawing.Size(214, 27);
+            this.id_StockIssue.Size = new System.Drawing.Size(192, 27);
             this.id_StockIssue.TabIndex = 31;
             // 
             // label26
@@ -871,7 +872,7 @@
             this.grd3.Name = "grd3";
             this.grd3.RowHeadersWidth = 51;
             this.grd3.RowTemplate.Height = 25;
-            this.grd3.Size = new System.Drawing.Size(718, 339);
+            this.grd3.Size = new System.Drawing.Size(729, 355);
             this.grd3.TabIndex = 0;
             // 
             // grb8
@@ -904,10 +905,10 @@
             // 
             // Distributor_name
             // 
-            this.Distributor_name.Location = new System.Drawing.Point(523, 89);
+            this.Distributor_name.Location = new System.Drawing.Point(535, 89);
             this.Distributor_name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Distributor_name.Name = "Distributor_name";
-            this.Distributor_name.Size = new System.Drawing.Size(206, 27);
+            this.Distributor_name.Size = new System.Drawing.Size(194, 27);
             this.Distributor_name.TabIndex = 28;
             // 
             // label27
@@ -922,18 +923,18 @@
             // id_Delivery_note
             // 
             this.id_Delivery_note.FormattingEnabled = true;
-            this.id_Delivery_note.Location = new System.Drawing.Point(107, 21);
+            this.id_Delivery_note.Location = new System.Drawing.Point(134, 21);
             this.id_Delivery_note.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.id_Delivery_note.Name = "id_Delivery_note";
-            this.id_Delivery_note.Size = new System.Drawing.Size(278, 28);
+            this.id_Delivery_note.Size = new System.Drawing.Size(251, 28);
             this.id_Delivery_note.TabIndex = 26;
             // 
             // confirm
             // 
-            this.confirm.Location = new System.Drawing.Point(629, 329);
+            this.confirm.Location = new System.Drawing.Point(535, 329);
             this.confirm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.confirm.Name = "confirm";
-            this.confirm.Size = new System.Drawing.Size(113, 55);
+            this.confirm.Size = new System.Drawing.Size(207, 55);
             this.confirm.TabIndex = 25;
             this.confirm.Text = "Confirm";
             this.confirm.UseVisualStyleBackColor = true;
@@ -944,16 +945,16 @@
             this.PaymentStatus.Items.AddRange(new object[] {
             "Paid",
             "Unpaid"});
-            this.PaymentStatus.Location = new System.Drawing.Point(513, 255);
+            this.PaymentStatus.Location = new System.Drawing.Point(535, 224);
             this.PaymentStatus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PaymentStatus.Name = "PaymentStatus";
-            this.PaymentStatus.Size = new System.Drawing.Size(198, 28);
+            this.PaymentStatus.Size = new System.Drawing.Size(194, 28);
             this.PaymentStatus.TabIndex = 24;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(405, 259);
+            this.label20.Location = new System.Drawing.Point(405, 227);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(109, 20);
             this.label20.TabIndex = 23;
@@ -961,10 +962,10 @@
             // 
             // PaymentMethod
             // 
-            this.PaymentMethod.Location = new System.Drawing.Point(121, 155);
+            this.PaymentMethod.Location = new System.Drawing.Point(134, 155);
             this.PaymentMethod.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PaymentMethod.Name = "PaymentMethod";
-            this.PaymentMethod.Size = new System.Drawing.Size(265, 27);
+            this.PaymentMethod.Size = new System.Drawing.Size(252, 27);
             this.PaymentMethod.TabIndex = 22;
             // 
             // label19
@@ -978,16 +979,16 @@
             // 
             // id_Distributor
             // 
-            this.id_Distributor.Location = new System.Drawing.Point(107, 89);
+            this.id_Distributor.Location = new System.Drawing.Point(134, 89);
             this.id_Distributor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.id_Distributor.Name = "id_Distributor";
-            this.id_Distributor.Size = new System.Drawing.Size(278, 27);
+            this.id_Distributor.Size = new System.Drawing.Size(251, 27);
             this.id_Distributor.TabIndex = 20;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(2, 255);
+            this.label17.Location = new System.Drawing.Point(13, 219);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(49, 20);
             this.label17.TabIndex = 19;
@@ -1001,18 +1002,18 @@
             "Approved",
             "Delivered",
             "Cancelled"});
-            this.status.Location = new System.Drawing.Point(97, 251);
+            this.status.Location = new System.Drawing.Point(134, 219);
             this.status.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(278, 28);
+            this.status.Size = new System.Drawing.Size(251, 28);
             this.status.TabIndex = 18;
             // 
             // total_Delivery_note
             // 
-            this.total_Delivery_note.Location = new System.Drawing.Point(495, 155);
+            this.total_Delivery_note.Location = new System.Drawing.Point(535, 155);
             this.total_Delivery_note.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.total_Delivery_note.Name = "total_Delivery_note";
-            this.total_Delivery_note.Size = new System.Drawing.Size(235, 27);
+            this.total_Delivery_note.Size = new System.Drawing.Size(195, 27);
             this.total_Delivery_note.TabIndex = 17;
             // 
             // label13
@@ -1026,10 +1027,10 @@
             // 
             // id_em_StockIssue
             // 
-            this.id_em_StockIssue.Location = new System.Drawing.Point(495, 21);
+            this.id_em_StockIssue.Location = new System.Drawing.Point(535, 21);
             this.id_em_StockIssue.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.id_em_StockIssue.Name = "id_em_StockIssue";
-            this.id_em_StockIssue.Size = new System.Drawing.Size(235, 27);
+            this.id_em_StockIssue.Size = new System.Drawing.Size(195, 27);
             this.id_em_StockIssue.TabIndex = 15;
             // 
             // label14
@@ -1053,7 +1054,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(22, 25);
+            this.label16.Location = new System.Drawing.Point(17, 25);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(24, 20);
             this.label16.TabIndex = 11;
@@ -1189,7 +1190,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(762, 16);
+            this.label29.Location = new System.Drawing.Point(771, 16);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(90, 20);
             this.label29.TabIndex = 2;
@@ -1211,7 +1212,7 @@
             "10",
             "11",
             "12"});
-            this.month.Location = new System.Drawing.Point(349, 8);
+            this.month.Location = new System.Drawing.Point(408, 13);
             this.month.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.month.Name = "month";
             this.month.Size = new System.Drawing.Size(330, 28);
@@ -1220,7 +1221,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(243, 12);
+            this.label28.Location = new System.Drawing.Point(297, 16);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(105, 20);
             this.label28.TabIndex = 0;

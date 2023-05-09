@@ -569,5 +569,10 @@ namespace Trieu_Quan_Co._Ltd
                 textBox1.Text = tblStockIssue.GetTotalAmountByMonthYear(monthValue, yearValue).ToString();
             }
         }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
