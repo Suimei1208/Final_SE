@@ -49,5 +49,9 @@ namespace Trieu_Quan_Co._Ltd
             }
         }
 
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

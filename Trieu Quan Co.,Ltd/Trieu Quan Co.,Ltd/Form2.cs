@@ -150,7 +150,6 @@ namespace Trieu_Quan_Co._Ltd
 
             reDetails = new tblStockReceiptDetails_BUS("", "", "", 0, 0, 0);
             id_detail.Text = id_warehouse.Text + "-" + reDetails.getID_tblStockReceipt();
-            MessageBox.Show(id_warehouse.Text + "-" + reDetails.getID_tblStockReceipt());
 
         }
 
@@ -552,7 +551,7 @@ namespace Trieu_Quan_Co._Ltd
             grd7.DataSource = SOS.getStockOutSummaryByMonthYear(int.Parse(month.Text), int.Parse(year.Text));
 
             tblStockIssue = new tblStockIssue_BUS("", "", "", 0, "", "", "", 0);
-            textBox1.Text= tblStockIssue.GetTotalAmountByMonthYear(int.Parse(month.Text), int.Parse(year.Text)).ToString();
+            textBox1.Text = tblStockIssue.GetTotalAmountByMonthYear(int.Parse(month.Text), int.Parse(year.Text)).ToString();
         }
 
         private void year_SelectedIndexChanged(object sender, EventArgs e)
