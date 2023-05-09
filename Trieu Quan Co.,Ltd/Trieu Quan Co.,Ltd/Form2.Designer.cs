@@ -167,6 +167,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.Beige;
             this.tabPage1.Controls.Add(this.grb7);
             this.tabPage1.Controls.Add(this.grb5);
             this.tabPage1.Controls.Add(this.grb4);
@@ -180,7 +181,6 @@
             this.tabPage1.Size = new System.Drawing.Size(1560, 826);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Warehouse";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // grb7
             // 
@@ -202,73 +202,80 @@
             // 
             // del_all
             // 
+            this.del_all.BackColor = System.Drawing.Color.Moccasin;
             this.del_all.Location = new System.Drawing.Point(447, 26);
             this.del_all.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.del_all.Name = "del_all";
             this.del_all.Size = new System.Drawing.Size(114, 31);
             this.del_all.TabIndex = 7;
             this.del_all.Text = "DELETE ALL";
-            this.del_all.UseVisualStyleBackColor = true;
+            this.del_all.UseVisualStyleBackColor = false;
             // 
             // del_detail
             // 
+            this.del_detail.BackColor = System.Drawing.Color.Moccasin;
             this.del_detail.Location = new System.Drawing.Point(351, 26);
             this.del_detail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.del_detail.Name = "del_detail";
             this.del_detail.Size = new System.Drawing.Size(86, 31);
             this.del_detail.TabIndex = 2;
             this.del_detail.Text = "DELETE";
-            this.del_detail.UseVisualStyleBackColor = true;
+            this.del_detail.UseVisualStyleBackColor = false;
             // 
             // cancel
             // 
+            this.cancel.BackColor = System.Drawing.Color.Moccasin;
             this.cancel.Location = new System.Drawing.Point(570, 26);
             this.cancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cancel.Name = "cancel";
             this.cancel.Size = new System.Drawing.Size(86, 31);
             this.cancel.TabIndex = 6;
             this.cancel.Text = "CANCEL";
-            this.cancel.UseVisualStyleBackColor = true;
+            this.cancel.UseVisualStyleBackColor = false;
             // 
             // print
             // 
+            this.print.BackColor = System.Drawing.Color.Moccasin;
             this.print.Location = new System.Drawing.Point(664, 26);
             this.print.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.print.Name = "print";
             this.print.Size = new System.Drawing.Size(86, 31);
             this.print.TabIndex = 5;
             this.print.Text = "PRINT PDF";
-            this.print.UseVisualStyleBackColor = true;
+            this.print.UseVisualStyleBackColor = false;
             // 
             // add_pro
             // 
+            this.add_pro.BackColor = System.Drawing.Color.Moccasin;
             this.add_pro.Location = new System.Drawing.Point(7, 27);
             this.add_pro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.add_pro.Name = "add_pro";
             this.add_pro.Size = new System.Drawing.Size(150, 32);
             this.add_pro.TabIndex = 2;
             this.add_pro.Text = "ADD PRODUCT";
-            this.add_pro.UseVisualStyleBackColor = true;
+            this.add_pro.UseVisualStyleBackColor = false;
             // 
             // edit
             // 
+            this.edit.BackColor = System.Drawing.Color.Moccasin;
             this.edit.Location = new System.Drawing.Point(163, 27);
             this.edit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.edit.Name = "edit";
             this.edit.Size = new System.Drawing.Size(86, 31);
             this.edit.TabIndex = 3;
             this.edit.Text = "EDIT";
-            this.edit.UseVisualStyleBackColor = true;
+            this.edit.UseVisualStyleBackColor = false;
             // 
             // save
             // 
+            this.save.BackColor = System.Drawing.Color.Moccasin;
             this.save.Location = new System.Drawing.Point(256, 27);
             this.save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(86, 31);
             this.save.TabIndex = 4;
             this.save.Text = "SAVE";
-            this.save.UseVisualStyleBackColor = true;
+            this.save.UseVisualStyleBackColor = false;
             // 
             // grb5
             // 
@@ -290,6 +297,7 @@
             this.grd2.AllowUserToResizeRows = false;
             this.grd2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grd2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.grd2.BackgroundColor = System.Drawing.Color.Snow;
             this.grd2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd2.Location = new System.Drawing.Point(11, 29);
             this.grd2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -318,6 +326,7 @@
             this.grd1.AllowUserToResizeRows = false;
             this.grd1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grd1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.grd1.BackgroundColor = System.Drawing.Color.Snow;
             this.grd1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd1.Location = new System.Drawing.Point(7, 29);
             this.grd1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -525,23 +534,25 @@
             // 
             // del
             // 
+            this.del.BackColor = System.Drawing.Color.Moccasin;
             this.del.Location = new System.Drawing.Point(194, 23);
             this.del.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.del.Name = "del";
             this.del.Size = new System.Drawing.Size(86, 31);
             this.del.TabIndex = 1;
             this.del.Text = "DELETE";
-            this.del.UseVisualStyleBackColor = true;
+            this.del.UseVisualStyleBackColor = false;
             // 
             // add_ware
             // 
+            this.add_ware.BackColor = System.Drawing.Color.Moccasin;
             this.add_ware.Location = new System.Drawing.Point(23, 24);
             this.add_ware.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.add_ware.Name = "add_ware";
             this.add_ware.Size = new System.Drawing.Size(150, 31);
             this.add_ware.TabIndex = 0;
             this.add_ware.Text = "ADD WAREHOUSE";
-            this.add_ware.UseVisualStyleBackColor = true;
+            this.add_ware.UseVisualStyleBackColor = false;
             // 
             // grb1
             // 
@@ -652,6 +663,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.Beige;
             this.tabPage2.Controls.Add(this.pdf);
             this.tabPage2.Controls.Add(this.grb11);
             this.tabPage2.Controls.Add(this.grb10);
@@ -664,17 +676,17 @@
             this.tabPage2.Size = new System.Drawing.Size(1560, 826);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Stock Issue";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // pdf
             // 
+            this.pdf.BackColor = System.Drawing.Color.Moccasin;
             this.pdf.Location = new System.Drawing.Point(1335, 337);
             this.pdf.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pdf.Name = "pdf";
             this.pdf.Size = new System.Drawing.Size(168, 55);
             this.pdf.TabIndex = 29;
             this.pdf.Text = "PRINT PDF";
-            this.pdf.UseVisualStyleBackColor = true;
+            this.pdf.UseVisualStyleBackColor = false;
             // 
             // grb11
             // 
@@ -694,6 +706,7 @@
             this.grd4.AllowUserToDeleteRows = false;
             this.grd4.AllowUserToResizeColumns = false;
             this.grd4.AllowUserToResizeRows = false;
+            this.grd4.BackgroundColor = System.Drawing.Color.Snow;
             this.grd4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd4.Location = new System.Drawing.Point(7, 29);
             this.grd4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -866,6 +879,7 @@
             this.grd3.AllowUserToDeleteRows = false;
             this.grd3.AllowUserToResizeColumns = false;
             this.grd3.AllowUserToResizeRows = false;
+            this.grd3.BackgroundColor = System.Drawing.Color.Snow;
             this.grd3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd3.Location = new System.Drawing.Point(13, 29);
             this.grd3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -931,13 +945,14 @@
             // 
             // confirm
             // 
+            this.confirm.BackColor = System.Drawing.Color.Moccasin;
             this.confirm.Location = new System.Drawing.Point(535, 329);
             this.confirm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.confirm.Name = "confirm";
             this.confirm.Size = new System.Drawing.Size(207, 55);
             this.confirm.TabIndex = 25;
             this.confirm.Text = "Confirm";
-            this.confirm.UseVisualStyleBackColor = true;
+            this.confirm.UseVisualStyleBackColor = false;
             // 
             // PaymentStatus
             // 
@@ -1062,6 +1077,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.Beige;
             this.tabPage3.Controls.Add(this.textBox1);
             this.tabPage3.Controls.Add(this.label30);
             this.tabPage3.Controls.Add(this.groupBox4);
@@ -1078,11 +1094,10 @@
             this.tabPage3.Size = new System.Drawing.Size(1560, 826);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Statistics and ratings";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(931, 509);
+            this.textBox1.Location = new System.Drawing.Point(855, 441);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(278, 27);
@@ -1091,7 +1106,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(978, 645);
+            this.label30.Location = new System.Drawing.Point(807, 444);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(42, 20);
             this.label30.TabIndex = 5;
@@ -1115,6 +1130,7 @@
             this.grd5.AllowUserToDeleteRows = false;
             this.grd5.AllowUserToResizeColumns = false;
             this.grd5.AllowUserToResizeRows = false;
+            this.grd5.BackgroundColor = System.Drawing.Color.Snow;
             this.grd5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd5.Location = new System.Drawing.Point(13, 29);
             this.grd5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -1142,6 +1158,7 @@
             this.grd7.AllowUserToDeleteRows = false;
             this.grd7.AllowUserToResizeColumns = false;
             this.grd7.AllowUserToResizeRows = false;
+            this.grd7.BackgroundColor = System.Drawing.Color.Snow;
             this.grd7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd7.Location = new System.Drawing.Point(13, 29);
             this.grd7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -1169,6 +1186,7 @@
             this.grd6.AllowUserToDeleteRows = false;
             this.grd6.AllowUserToResizeColumns = false;
             this.grd6.AllowUserToResizeRows = false;
+            this.grd6.BackgroundColor = System.Drawing.Color.Snow;
             this.grd6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd6.Location = new System.Drawing.Point(13, 29);
             this.grd6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -1231,6 +1249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(1595, 891);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
