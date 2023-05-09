@@ -1,5 +1,5 @@
 # Final_SE
-This is a Winform project built with Visual Studio 2022. To run the project, you need to open the connection.cs file in the DAL class and change the data source to your SQL server.
+This is a Winform project built with Visual Studio 2022. To run the project, you need to open the Connection.cs file in the DAL class and change the data source to your SQL server.
 
 Warehouse tab:
 After changing the data source, run the form and log in with the username admin and password 123456789. Then, select the supplier name and click the ADD WAREHOUSE button. You will see the data added below. Click on the created data, and the details will be displayed in the adjacent table.
